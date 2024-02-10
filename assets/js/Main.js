@@ -1,7 +1,7 @@
 import Game from "./Engine/Game.js";
 import { playerId, SETTINGS } from "./Engine/Variables.js";
 import { io } from "https://cdn.socket.io/4.7.4/socket.io.esm.min.js";
-const socket = await io("http://localhost:3000/");
+const socket = await io("https://terrific-bejewled-duckling.glitch.me");
 
 //CANVAS
 const canvas = document.getElementById("canvas");
