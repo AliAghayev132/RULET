@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    cursor: none;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+canvas {
+    image-rendering: pixelated;
+    border: 5px solid yellow;
+}
